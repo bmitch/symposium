@@ -6,7 +6,7 @@ use Submission;
 use Talk;
 use TalkRevision;
 
-class DestroySubmission extends Command implements 
+class DestroySubmission extends Command implements
 {
     private $conferenceId;
     private $talkId;

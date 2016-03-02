@@ -5,7 +5,7 @@ use Symposium\Commands\Command;
 use Talk;
 use TalkRevision;
 
-class CreateSubmission extends Command implements 
+class CreateSubmission extends Command implements
 {
     private $conferenceId;
     private $talkId;
